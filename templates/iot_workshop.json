@@ -1,6 +1,6 @@
 {
-  "cdhVersion": "7.0.3",
-  "cmVersion": "7.0.3",
+  "cdhVersion": "7.1.1.0",
+  "cmVersion": "7.1.1",
   "displayName": "SingleNodeCluster",
   "hostTemplates": [
     {
@@ -145,7 +145,7 @@
     },
     {
       "product": "CDH",
-      "version": "7.0.3-1.cdh7.0.3.p0.1635019"
+      "version": "7.1.1-1.cdh7.1.1.p0.3266817"
     },
     {
       "product": "Anaconda",
@@ -153,13 +153,13 @@
     },
     {
       "product": "CDSW",
-      "version": "1.6.1.p1.1504243"
+      "version": "1.7.2.p1.2066404"
     }
   ],
   "repositories": [
-    "https://archive.cloudera.com/cdh7/7.0/parcels/",
+    "https://archive.cloudera.com/cdh7/7.1.1.0/parcels/",
     "https://archive.cloudera.com/CFM/parcels/1.0.1.0/",
-    "https://archive.cloudera.com/cdsw1/1.6.1/parcels/",
+    "https://archive.cloudera.com/cdsw1/1.7.2/parcels/",
     "https://repo.continuum.io/pkgs/misc/parcels/archive/"
   ],
   "services": [

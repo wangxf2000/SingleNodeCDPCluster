@@ -97,7 +97,7 @@ mkdir -p /var/www/html/pkgs/misc/parcels/archive/
 
 ### download the public repository to your local directory
 ```
-wget -nd -r  -l1 --no-parent https://archive.cloudera.com/cm7/7.0.3/redhat7/yum/RPMS/x86_64/ -P /var/www/html/cm7/7.0.3/redhat7/yum/RPMS/x86_64/
+wget -nd -r  -l1 --no-parent https://archive.cloudera.com/cm7/7.1.1/redhat7/yum/RPMS/x86_64/ -P /var/www/html/cm7/7.1.1/redhat7/yum/RPMS/x86_64/
 wget https://archive.cloudera.com/cm7/7.1.1/redhat7/yum/RPM-GPG-KEY-cloudera -P /var/www/html/cm7/7.1.1/redhat7/yum
 wget https://archive.cloudera.com/cm7/7.1.1/redhat7/yum/cloudera-manager-trial.repo -P /var/www/html/cm7/7.1.1/redhat7/yum
 wget https://archive.cloudera.com/cm7/7.1.1/allkeys.asc -P /var/www/html/cm7/7.1.1
